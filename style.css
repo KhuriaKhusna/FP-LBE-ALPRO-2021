@@ -1,0 +1,287 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background: url('asset/pexels-christina-morillo-1181269.jpg') no-repeat;
+    background-color: #feda5f;
+    background-blend-mode:multiply;
+    opacity: .9;
+    background-size: cover;
+    height: 100vh;
+    width:  100vw;
+    position: relative; 
+    text-align: center;
+}
+
+header .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header .wrapper {
+    color: #ffc400;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-shadow:0 4px 0px black;
+    margin-bottom: 40px;
+}
+
+header .wrapper img {
+    border-radius: 50%;
+    border: 6px solid #ffc400;
+    box-shadow: 0 15px 5px 1px rgba(0,0,0,.7);
+}
+
+header .wrapper ul {
+    list style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+header .wrapper ul li a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #ffc711;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-shadow: 0 4px 0px black;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+
+header .wrapper ul li a:hover {
+    border-bottom: 5px solid #ffc711;
+
+}
+
+.About-Me {
+    background: #ffd64e;
+    mix-blend-mode: soft-light;
+    color: white;
+    text-align: start;
+    padding: 15px 380px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 15 15px;
+}
+
+.About-Me .wrapper h2 {
+    text-shadow: 0 4px 0px black;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 7px solid white;
+    border: 0 40px;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-bottom: 45px;
+    padding: 0 50px;
+}
+
+.About-Me .wrapper h3 {
+    color: black;
+    text-shadow: 0 4px 2px whitesmoke;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0 px;
+    margin-bottom: 40px;
+}
+
+.About-Me .wrapper p {
+    margin-bottom: 10px;
+}
+
+.About-Me .wrapper a {
+    color: black;
+    text-shadow: 0 3px 3px whitesmoke;
+    font-size: 18px;
+    line-height: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 10px 35px;
+    border: 5px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 70px;
+}
+
+.Skill {
+    background:#ffc711;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Skill .wrapper {
+    width: 80%;
+}
+
+.Skill .wrapper h2 {
+    text-shadow: 0 4px 0px black;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 7px solid white;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-bottom: 45px;
+}
+
+.Skill .wrapper-Skill {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.Skill .wrapper-Skill h5 {
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 0 3px 2px whitesmoke;
+    font-size: 18px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.Skill .wrapper-Skill .background {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background: white;
+}
+
+.Skill .wrapper-Skill .background .indicator {
+    position: absolute;
+    top: 0
+    left: 0;
+    height: 30px;
+    background: #549cfc;
+    z-index: 2;
+}
+
+.indicator.html {
+    width: 80%;
+}
+
+.indicator.CSS {
+    width: 80%;
+}
+
+.indicator.English {
+    width: 60%;
+}
+
+.Education {
+    background: #ffd64e;
+    mix-blend-mode: soft-light;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Education .wrapper {
+    padding: 200px;
+}
+
+.Education .wrapper h2 {
+    text-shadow: 0 4px 0px black;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 7px solid white;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-bottom: 45px;
+}
+
+.Education .wrapper .wrapper-Education {
+    display: grid;
+    grid-gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.wrapper-Education a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    text-shadow: 0 3px 1px whitesmoke;
+    font-size: 22px;
+}
+
+.Contact {
+    background: #ffc711;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact .wrapper h2 {
+    text-shadow: 0 4px 0px black;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 7px solid white;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-bottom: 45px;
+}
+
+.Contact .wrapper-Contact input, .Contact .wrapper-Contact textarea {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 11px;
+    padding: 10px 15px;
+    margin-bottom: 18px;
+    font-family: sans-serif;
+}
+
+.Contact .wrapper-Contact textarea {
+    height: 120px;
+}
+
+.Contact .wrapper-Contact input[type="submit"] {
+    color: #black;
+    text-decoration: none;
+    text-transform: none;
+    border-radius: 11px;
+    padding: 10px 60px;
+    border: 5px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: #feda5f;
+    display: inline-block;
+    padding-bottom: 23px;
+    width: auto;
+    cursor: pointer;
+    transition: all .4s ease-out;
+}
+
+.Contact .wrapper-Contact input[type="submit"]:hover {
+    background: #f4cf53;
+    box-shadow: 0 15px 25px -5px rgba(0,0,0,.3);
+}
